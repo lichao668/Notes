@@ -58,6 +58,16 @@ $ cd  /D/B03/bootstrap/day4/code
 社交化编程
 [github](https://github.com/)
 
+``` shell
+// 将本地库同步到 github中。
+echo "# Notes" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/lichao668/Notes.git
+git push -u origin master
+```
+
 
 
 
